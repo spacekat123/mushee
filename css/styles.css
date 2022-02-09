@@ -40,7 +40,7 @@ h3 {
 }
 
 .nav-link {
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-family: 'Montserrat';
   font-weight: 500;
 }
@@ -136,6 +136,12 @@ h3 {
 }
 
 .contact-me {
-  padding: 0 2px;
-  margin: 1rem auto;
+  margin: 1rem 0.5rem;
+}
+
+@media (max-width: 1029px) {
+  .meet {
+    text-align: center;
+    padding: 3rem 0
+  }
 }
