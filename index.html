@@ -7,17 +7,17 @@
   <title>Mushee</title>
   <link rel="icon" href=images/Mushee-icon.png>
 
-    <!-- Font Awesome -->
-    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&family=Ubuntu&display=swap" rel="stylesheet">
-<!-- CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -48,17 +48,17 @@
           </div>
         </div>
       </nav>
-  <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 meet">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 meet">
 
-          <h1>Meet your new morning friend.</h1><br>
-          <button type="button" class="btn btn-outline-dark btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now!</button>
+            <h1>Meet your new morning friend.</h1><br>
+            <button type="button" class="btn btn-outline-dark btn-lg"><i class="fas fa-shopping-cart"></i> Buy Now!</button>
+          </div>
+          <div class="col-lg-6"><img class=banner-picture src="images/banner.png" alt=""></div>
         </div>
-        <div class="col-lg-6"><img class=banner-picture src="images/banner.png" alt=""></div>
       </div>
     </div>
-      </div>
   </section>
 
 
@@ -66,24 +66,142 @@
 
   <section id="features">
     <div class="container-fluid ">
-        <div class="row">
-            <div class="col-lg-4 feature-point">
-<i class="fas fa-globe-americas fa-4x feature-icon"></i>
-    <h3>World's First Mushroom Drinks.</h3>
-    <p>An addicitve combination of flavours, only exclsuive to Mushee.</p></div>
+      <div class="row">
+        <div class="col-lg-4 feature-point">
+          <i class="fas fa-globe-americas fa-4x feature-icon"></i>
+          <h3>World's First Mushroom Drinks.</h3>
+          <p class="feature-text">An addicitve combination of flavours, only exclsuive to Mushee.</p>
+        </div>
         <div class="col-lg-4 feature-point"><i class="fas fa-check-circle fa-4x feature-icon"></i>
-    <h3>Highest Quality Ingredients.</h3>
-    <p>We only ethically source the best ingredients from Japan and Australia for our drinks.</p></div>
+          <h3>Highest Quality Ingredients.</h3>
+          <p class="feature-text">We only ethically source the best ingredients from Japan and Australia for our drinks.</p>
+        </div>
         <div class="col-lg-4 feature-point"><i class="fas fa-coffee fa-4x feature-icon"></i>
-    <h3>Carefully forumulated.</h3>
-    <p>We have refined our recipe over the years to help you become a healthier and happier you.</p></div>
+          <h3>Carefully forumulated.</h3>
+          <p class="feature-text">We have refined our recipe over the years to help you become a healthier and happier you.</p>
+        </div>
 
   </section>
-      
-        <!-- Footer -->
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>"My favourite morning pick-me-up, the perfect kick of caffeine and boost of nutrition."</h2>
+          <img class="testimonial-image" src="images/women-coffee.jpg" alt="happy-woman-drinking-coffee"><br>
+          <em>Melbourne, Australia</em>
+        </div>
+        <div class="carousel-item">
+          <h2>"Nothing used to work for me until I found Mushee. I can't live without it anymore!"</h2>
+          <img class="testimonial-image" src="images/man-coffee.jpg" alt="happy-man-drinking-coffee"><br>
+          <em>New York, United States</em>
+        </div>
+        <div class="carousel-item">
+          <h2>"Excellent coffee and matcha - mouthwatering flavours and aromas that always gives me the perfect brew."</h2>
+          <img class="testimonial-image" src="images/woman-tea.jpg" alt="happy-woman-drinking-tea"><br>
+          <em>Seoul, Korea</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <p>As mentioned on</p>
+    <img class="press-logo" src="images/abc.png" alt="abc-news-logo" height=70rem>
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo" height=70rem>
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo" height=45rem>
+    <img class="press-logo" src="images/vice.png" alt="vice-logo" height=60rem>
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <div class="container-fluid">
+      <h2>Your Morning Friend</h2>
+      <p>Simple and affordable Mushee drink selection to rejuvenate your mind and soul.</p>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header card-header-odd">
+              <h3>Trial Mushee</h3>
+              <img class="pricing-image" src="images/trial-coffee.png" alt="trial-bag-of-mushee-coffee">
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>Bundle of Mushee Coffee and Matcha </p>
+              <p>Equivalent to 10 brews</p>
+              <p>Just pay for Shipping</p>
+              <button class="btn-outline-dark btn-lg" type="button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header card-header-even">
+              <h3>Mushee Coffee</h3>
+              <img class="pricing-image" src="images/coffee2.png" alt="mushee-coffee" width=93.5%>
+            </div>
+            <div class="card-body">
+              <h2>$50</h2>
+              <p>250g Signature Mushee Coffee Blend</p>
+              <p>Equivalent to 100 brews</p>
+              <p>Free Standard Shipping</p>
+              <button class="btn-dark btn-lg" type="button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header card-header-odd">
+              <h3>Mushee Matcha</h3>
+              <img class="pricing-image" src="images/teabags.png" alt="mushee-matcha" width=75%>
+            </div>
+            <div class="card-body">
+              <h2>$50</h2>
+              <p>30 Exclusive Mushee Matcha teabags</p>
+              <p>Japanese Sourced Matcha</p>
+              <p>Free Standard Shipping</p>
+              <button class="btn-dark btn-lg" type="button"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Footer -->
 
   <footer id="footer">
-
-    <p>© Copyright Mushee</p>
-
+    <div class=container-fluid>
+      <i class="fab fa-twitter contact-me"></i>
+      <i class="fab fa-facebook-f contact-me"></i>
+      <i class="fab fa-instagram contact-me"></i>
+      <i class="fas fa-envelope contact-me"></i>
+      <p>© Copyright Mushee</p>
+    </div>
   </footer>
+
+
+</body>
+
+</html>
